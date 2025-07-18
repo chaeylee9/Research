@@ -1,5 +1,5 @@
 ## Research
-- 학위 과정 중 수행한 연구활동
+- 학위과정 중 수행한 연구활동
 
 <br>
 
@@ -44,10 +44,27 @@
 
 ### Does the use of geographic knowledge enhance multilingual text recognition?
 #### | 언어별 간판의 비율과 분포가 언어경관의 텍스트 자동인식에 영향을 미치는지 확인한 연구
-- 
+- 기존의 OCR 모델은 문자 인식에 있어 이미지 자체 정보만을 사용하지만, 본 연구에서는 지역의 언어 분포 정보를 추가적으로 반영했을 때 언어 인식의 정확도가 높아지는지 확인하였음
+- 4가지의 가상 분포 패턴을 만들고, EasyOCR로 인식한 사전확률에 직접 라벨링한 실제 언어 분포와 언어별 자기상관 정도를 가중치로 반영하여 인식 정확도를 비교함
+- 실제 언어 분포를 가중치로 사용한 모델만으로 모든 가상 패턴에서 충분히 좋은 성능 증가를 보임
+
+|<img width="550" height="377" alt="image" src="https://github.com/user-attachments/assets/f87547d9-5d76-472e-903e-124c2e853318" />|<img width="536" height="155" alt="image" src="https://github.com/user-attachments/assets/cafd54e8-bccf-418a-bb9e-859b97972e6d" />|
+|:---:|:---:|
+|언어별 실제 분포|가상 분포 패턴|
+
+<br>
 
 ### Ethnic segregation on linguistic landscapes
 #### | 거리 수준 이미지를 활용해 언어경관의 관점에서 민족 집단 간의 분리 정도를 분석한 연구
+- 거리의 언어경관은 민족 집단의 거주지 및 활동 영역을 반영함
+- 기존의 인구 집단 분리 현상은 대부분 주거지를 기반으로 분석되었고, 장기적 변화를 포착한 연구가 부족했음
+- 본 연구에서는 장기간의 로드뷰 이미지를 활용하여 거리 수준의 시점에서 인구집단의 분리를 분석함
+- 거주지 뿐만 아니라 상업지역을 중심으로 발생한 분리 현상도 포착되어, 특정 인구집단이 주로 어디에서 활동하고 소비하는지가 언어경관에 반영됨을 확인함
+
+|<img width="317" height="254" alt="image" src="https://github.com/user-attachments/assets/251b94e2-6064-4c88-b493-03162121baa3" />|<img width="311" height="250" alt="image" src="https://github.com/user-attachments/assets/271b604f-c597-466c-92de-e42e811e63fc" />|<img width="509" height="233" alt="image" src="https://github.com/user-attachments/assets/6cfc18f4-0019-4d00-8251-218bd90a0266" />|
+|:---:|:---:|:---:|
+|2010년의 중국인 인구와 중국어 간판의 분포|2016년의 분포|거주지와 간판의 분리 수준|
+
 
 ### 공간정보를 활용한 중소기업 기본통계 분석
 #### | GIS 와 공간정보를 활용하여 중소기업의 기본 통계를 시각화하고, 밀집지역, 성장•소멸 예상 지역을 분류하는 프로젝트
